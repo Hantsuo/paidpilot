@@ -63,3 +63,28 @@ YouTube, under 3 minutes, public/unlisted.
 - AI tools leveraged: "DeepSeek V4.1 (via the DeepSeek Harness agent framework, routed through my OpenCode Go subscription) as the coding agent that implemented the prototype from a written spec; I directed, reviewed and verified its output with automated tests (14/14 checks + production build)."
 - Level of learning: highest option
 - AI value for career: Yes
+
+## Demo video script (<3 min, target ~2:20) — read the EN lines, actions in brackets
+
+[0:00–0:12 — screen: PaidPilot homepage, sample message visible]
+"Hi, I'm Persona. I built PaidPilot — an AI payment agent for freelancers and solo developers. Getting paid usually starts with a messy message like this one."
+
+[0:12–0:35 — click Extract; fields fill in]
+"Instead of typing an invoice by hand, I paste the client's message and click Extract. PaidPilot pulls out the client name, email, the work, the amount, the currency, and the due date — with a confidence score. The extraction runs on a local engine by default, or a real LLM when you plug in an API key."
+
+[0:35–0:58 — click Create PayPal payment link; order card appears]
+"One more click creates a real PayPal order through the PayPal Sandbox API — order ID, status, and an approval link I can send to the client. No credentials? It falls back to a clearly labeled mock mode, same shape, so anyone can try the demo."
+
+[0:58–1:25 — scroll to AG Grid dashboard; sort/filter; change a status dropdown to Overdue]
+"Every invoice lands in this live dashboard, built with AG Grid. I can sort, filter, and edit statuses inline. This one is overdue — and chasing late payments is the worst part of freelancing."
+
+[1:25–1:50 — click Draft reminder; reminder text appears]
+"So PaidPilot drafts the follow-up for me: polite, firm, with the amount, the due date, and the payment link already inside. I just review and send."
+
+[1:50–2:15 — back to full dashboard; mouse over the stats]
+"To recap: message in, invoice out, PayPal link created, payment tracked, late payers chased — one flow, no spreadsheets, no awkward manual emails."
+
+[2:15–2:25 — end screen: repo URL on screen]
+"PaidPilot is open source — the link is on screen and in the Devpost page. Thanks for watching!"
+
+Recording notes: record at 1080p, browser zoom 110–125%, close other tabs; if you stumble on a line, pause 2 seconds and re-read just that line — easy to cut later.
