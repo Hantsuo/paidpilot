@@ -158,32 +158,6 @@ The extractor intentionally favours precision over recall:
 - AG Grid Community / React 34.3 (Alpine legacy theme)
 - No additional dependencies
 
-## Demo script (under 3 minutes)
-
-**0:00–0:20 — Set the stage.** Open the app. Point at the header badge:
-mock mode, no credentials, no API key. Mention the three seeded invoices.
-
-**0:20–0:55 — Extract.** The sample client message is already loaded. Click
-**Extract with AI**. The editable invoice form fills with Maya Chen, the
-dashboard redesign, `$1,200`, USD, and `2026-11-20`. Change the item or amount to
-show every field is editable.
-
-**0:55–1:30 — Create the payment link.** Click **Create PayPal payment link**.
-A new row appears in the grid with status `sent` and a `MOCK-...` order ID. Point
-out that no network request was made and no real money can move.
-
-**1:30–2:10 — Track and edit.** In the grid, click the status of the seeded
-Jordan Ellis row, choose `overdue` (or start from the seeded overdue row), and
-explain the draft/sent/paid/overdue lifecycle.
-
-**2:10–2:45 — Draft the follow-up.** Click **Draft reminder** on the overdue row.
-The panel opens with a polite email that includes `$450.00`, the due date, and
-the PayPal link. Click **Copy draft** and paste it into the panel or email client.
-
-**2:45–3:00 — Close.** Mention the live mode: set `PAYPAL_CLIENT_ID` and
-`PAYPAL_CLIENT_SECRET` to swap the mock order for a real PayPal Sandbox order
-without changing any UI code.
-
 ## Project structure
 
 ```text
